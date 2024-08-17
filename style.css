@@ -1,0 +1,156 @@
+
+.mylogo{
+     width: 100px;
+     height: auto;
+}
+
+.mylogo img{
+     width: 100%;
+}
+
+
+
+
+.navbar{
+     width: 90%;
+     padding: 10px 50px;
+     margin: 0px auto;
+     background-color: #032b68;
+}
+
+@media only screen and (max-width: 600px) {
+     .navbar{
+          width: 100%;
+          padding: 0 10px;
+         
+     }
+   }
+
+
+
+ul li a{
+     font-size: 20px;
+     color: rgb(255, 255, 255);
+     margin: auto 10px;
+     list-style: none;
+     text-decoration: none !important;
+}
+
+
+ul li a:hover{
+     color: #ac102f;
+}
+
+
+.mainitem{
+     width: 95%;
+     margin: auto;
+}
+
+
+.card{
+     
+     background-color: rgb(255, 255, 255);
+     /* border: 2px solid black; */
+     border-radius: 10px;
+     box-shadow: 2px 2px 10px 0 black;
+}
+
+
+.card-deck{
+     /* width: 300px; */
+     margin: 10px auto;
+     display: block;
+}
+
+.card{
+     font-size: 13px;
+     width: 250px;
+     height: 500px;
+}
+
+
+.addItemBtn{
+     color: whitesmoke;
+     background-color: #051886;
+     border-radius: 20px;
+}
+
+.addItemBtn:hover{
+     color: rgb(255, 255, 255);
+     background-color: #860505;
+     border: 1px solid rgb(255, 255, 255);
+}
+
+.card-title{
+     color: #860505 !important;
+}
+
+.card-text{
+     color: #032b68 !important;
+}
+
+
+
+.mainfooter p{
+     background-color:#051886;
+     text-align: center;
+     font-size: 20px;
+     padding: 10px 0;
+     color: white;
+     margin: 0;
+}
+
+.btn-c{
+     background-color: #dd7f14;
+     border: none;
+     padding: 5px 0;
+     border-radius: 10px;
+}
+
+.btn-su{
+     background-color: rgb(177, 177, 177);
+     color: white;
+}
+
+.btn-co{
+     background-color: #dd7f14;
+     /* padding: 8px; */
+     color: white;
+}
+
+
+.slide{
+     height: 700px;
+     width: 90%;
+     margin: auto;
+}
+
+.carousel-inner{
+     height: 100%;
+}
+
+.OPP{
+     text-align: center;
+     background-color: #032b68;
+     width: 15%;
+     margin: auto;
+     color: rgb(253, 253, 253);
+  }
+
+  .OPP p{
+     padding: 10px 0;
+  }
+
+  .pbtns{
+     height: 200px;
+     text-align: center;
+  }
+
+  .pbtns a {
+     margin: 0 20px;
+  }
+
+  .pbtns a img{
+     height: 100px;
+  }
